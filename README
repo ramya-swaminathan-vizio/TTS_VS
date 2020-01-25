@@ -1,8 +1,8 @@
 1.Create dirrectory at the same level where sdk and build directories exists
 2.create src folder and copy sampletts.c ttsdemo.c file in the src folder
-3.create inc folder copy tplf_tts.h in the inc folder
-4.copy EnvSetup.sh 
-5.Run EnvSetup.sh which will create toolchains folder and vs_build folder
+3.create inc folder copy tplf_tts.h in the inc folder 
+4.copy EnvSetup.sh(which installs toolchains and vs_build directories) inside newly created directory
+5.Run EnvSetup.sh which will create toolchains folder and vs_build folder 
 6.copy Make file  and run make
 
 NOTE:

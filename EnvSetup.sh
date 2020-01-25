@@ -3,8 +3,6 @@ ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" > /dev/null 2>&1 && pwd )"
 VS_BUID_DIR="$ROOT_DIR/vs_build"
 SX7_TOOLCHAIN_DIR="$ROOT_DIR/toolchains/sx7_toolchain"
 BIN_DIR="$ROOT_DIR/bin"
-FFMPEG_SOURCES_DIR="$ROOT_DIR/ffmpeg_sources"
-FFMPEG_BUILD_DIR="$ROOT_DIR/ffmpeg_build"
 
 
 if [ ! -d "$SX7_TOOLCHAIN_DIR" ]; then
